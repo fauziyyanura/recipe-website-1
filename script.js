@@ -35,7 +35,7 @@ const displayMeals = (meals) => {
     });
 }
 
-
+// Extract ingredients from the meal object using an arrow function
 const getIngredients = (meal) => {
     let ingredients = [];
     for (let i = 1; i <= 5; i++) {
