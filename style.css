@@ -48,7 +48,12 @@ ul{
 .meal-ingredients{
     font-size: 15px;
 }
-
+.meal-card p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #666;
+}
 .meal-video-link {
     display: inline-block;
     margin-top: 10px;
