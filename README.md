@@ -43,7 +43,7 @@ Check out live demo of my project: [Live Demo Link](https://fauziyyanura.github.
 -API Integration: All recipes are fetched dynamically from TheMealDB API, keeping content up to date.
 
 ## Technologies Used
--HTML:For structuring the content and layout of the website
+-HTML:For structuring the web content.
 -CSS:For styling and layout design.
 -JavaScript: To handle user interactions and enhance the website's functionality.
 -API: TheMealDB API provides real-time recipe data.
