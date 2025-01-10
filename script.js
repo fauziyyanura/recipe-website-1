@@ -13,7 +13,7 @@ const fetchMeals = async () => {
 const displayMeals = (meals) => {
     const mealList = document.getElementById('meal-list');
     
-    mealList.innerHTML = ''; // Clear existing content
+    mealList.innerHTML = ''; 
 
     meals.forEach(meal => {
         const ingredients = getIngredients(meal);
@@ -35,7 +35,7 @@ const displayMeals = (meals) => {
     });
 }
 
-// Extract ingredients from the meal object using an arrow function
+
 const getIngredients = (meal) => {
     let ingredients = [];
     for (let i = 1; i <= 5; i++) {
